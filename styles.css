@@ -5,25 +5,51 @@
 }
 
 header{
-    width: 100%
+    display:flex;
+    justify-content: space-between;
     align-items: center;
-    background-color: #a3d5ff;
-    padding-bottom: 5px;
+    background-color: #4d4d4c;
+    padding: 10px 30px;
+
+    position: sticky;
+    top:0;
 }
 
-h1{
+.logo img{
+    width: 40px;
+}
+
+header h1{
     text-align: center;
-    color: #6879d0;
+    color: #ff8c00;
+    flex: 1;
+    font: 50px "Times New Roman";
+    font-weight:800;
 }
 
 .nav-bar{
     display: flex;
-    justify-content: space-around;
+    gap: 40px;
     list-style-type: none;
 }
 
+.socials{
+    padding-left: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.socials img{
+    width:30px;
+    height: 30px;
+}
+
 .nav-bar a{
-    color: #858585;
+    color: #ff8c00;
+}
+
+.nav-bar .current{
+    color:#ffffff;
 }
 
 a:link{
@@ -36,4 +62,38 @@ a:visited{
 
 a:hover{
     text-decoration: underline;
+}
+
+
+.content{
+    width: 100%;
+    padding-left: 30px;
+    padding-bottom: 57px;
+    background-image: url(images/icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-image{
+    border-style: dotted;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: rgb(250, 156, 14);
+}
+
+/* .list-aboutme{
+    list-style-type: lower-roman;
+} */
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color:#ffb300;
+    background-color:#4d4d4c;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
 }
