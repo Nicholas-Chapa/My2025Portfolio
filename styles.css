@@ -21,7 +21,7 @@ header{
 
 header h1{
     text-align: center;
-    color: #ec9109;
+    color: #494c57;
     flex: 1;
     font: 50px "Times New Roman";
     font-weight:800;
@@ -45,7 +45,7 @@ header h1{
 }
 
 .nav-bar a{
-    color:#ec9100;
+    color:#494c57;
 }
 
 .nav-bar .current{
@@ -82,7 +82,7 @@ a:hover{
 }
 
 .content p{
-    color:#ec9109;
+    color: #494c57;
 }
 
 .content .abtMeText{
