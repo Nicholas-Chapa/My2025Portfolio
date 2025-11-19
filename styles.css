@@ -8,7 +8,7 @@ header{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #a3d5ff;
+    background-color: #ec9109;
     padding: 10px 30px;
 
     position: sticky;
@@ -21,7 +21,7 @@ header{
 
 header h1{
     text-align: center;
-    color: #6879d0;
+    color: #ec9109;
     flex: 1;
     font: 50px "Times New Roman";
     font-weight:800;
@@ -45,11 +45,11 @@ header h1{
 }
 
 .nav-bar a{
-    color:#8579ff;
+    color:#ec9109;
 }
 
 .nav-bar .current{
-    color:#000000;
+    color:#ffffff;
 }
 
 a:link{
@@ -82,7 +82,7 @@ a:hover{
 }
 
 .content p{
-    color:#8579ff;
+    color:#ec9109;
 }
 
 .content .abtMeText{
@@ -99,8 +99,8 @@ footer{
     width: 100%;
     position: fixed;
     bottom: 0;
-    color: #6879d0;
-    background-color:  #a3d5ff;
+    color: #494c57;
+    background-color:  #ec9109ff;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
