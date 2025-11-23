@@ -8,7 +8,7 @@ header{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ec9109;
+    background-color: #494c57;
     padding: 10px 30px;
 
     position: sticky;
@@ -16,12 +16,12 @@ header{
 }
 
 .logo img{
-    width: 40px;
+    width: 100px;
 }
 
 header h1{
     text-align: center;
-    color: #494c57;
+    color: #f1a026;
     flex: 1;
     font: 50px "Times New Roman";
     font-weight:800;
@@ -45,7 +45,7 @@ header h1{
 }
 
 .nav-bar a{
-    color:#494c57;
+    color:#f1a026;
 }
 
 .nav-bar .current{
@@ -99,8 +99,8 @@ footer{
     width: 100%;
     position: fixed;
     bottom: 0;
-    color: #494c57;
-    background-color:  #ec9109ff;
+    color: #f1a026;
+    background-color:  #494c57;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
